@@ -10,7 +10,7 @@ from scrapy.exporters import CsvItemExporter
 class NpwikiPipeline(object):
 
 	def __init__(self):
-		self.filename = 'np_visitors.csv'
+		self.filename = 'np_visitors62.csv'
 
 	def open_spider(self, spider):
 		self.csvfile = open(self.filename, 'wb')
