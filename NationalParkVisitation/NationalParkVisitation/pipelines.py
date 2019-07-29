@@ -12,7 +12,7 @@ from scrapy.exporters import CsvItemExporter
 class NationalparkvisitationPipeline(object):
  
 	def __init__(self):
-		self.filename = 'filename.csv'
+		self.filename = 'visitors.csv'
 
 	def open_spider(self, spider):
 		self.csvfile = open(self.filename, 'wb')
